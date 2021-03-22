@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.new-goal{
+  margin : 2rem;
+  text-align: "center";
+}
+
+.input{
+  text-align: "center";
+  margin-left:45% ;
+}
