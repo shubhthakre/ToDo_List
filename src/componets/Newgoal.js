@@ -30,7 +30,8 @@ const Newgoal =props=> {
     return (
         <form className="goal" onSubmit={Gaolhandler}>
         <input className="input" type="text" value ={userInput } onChange={textChange}/>
-            <button type ="submit">Add Goal</button>
+            <button type ="submit">Add Task</button>
+            
         
     </form>
     )

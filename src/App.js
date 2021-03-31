@@ -24,6 +24,8 @@ const addnewGoal = (newGoal) =>{
     <h2>{title} </h2>
     <Newgoal onAddGoal={addnewGoal}/>
       <MygoalList goals={mygoals}/>
+      <button variant="secondary" class="clear" onClick={()=>setmygoals([])}>clear all</button>
+     
     </div>
   )
 }

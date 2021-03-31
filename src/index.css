@@ -22,3 +22,9 @@ code {
   text-align: "center";
   margin-left:45% ;
 }
+
+.clear{
+  margin-left: 50%;
+  width: 245px;
+  text-align: center;
+}
