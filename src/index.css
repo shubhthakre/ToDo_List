@@ -14,17 +14,29 @@ code {
 
 
 .new-goal{
+  justify-content: center;
   margin : 2rem;
   text-align: "center";
 }
 
 .input{
   text-align: "center";
-  margin-left:45% ;
+  margin-left:23em ;
+
 }
 
 .clear{
-  margin-left: 50%;
+  margin-left: 23em;
   width: 245px;
   text-align: center;
+}
+
+
+h2{
+  margin-left:0em ;
+  
+  text-align: center;
+}
+.button{
+  margin-left: 80%;
 }

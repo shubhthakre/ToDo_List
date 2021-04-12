@@ -37,9 +37,6 @@
   }
 }
 
- .mygoals h2{
-  text-align: center;
-}
 
 
 .goal-list{
@@ -53,4 +50,12 @@
   border :1px solid#ccc;
   padding:1rem;
 
+}
+
+.mygoals{
+  max-width: 100%;
+  width: 900px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 1em;
 }
