@@ -54,6 +54,7 @@
 
 .mygoals{
   max-width: 100%;
+  position: relative;
   width: 900px;
   margin: 2em auto;
   background: #fff;
