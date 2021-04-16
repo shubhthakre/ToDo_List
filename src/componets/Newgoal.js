@@ -21,19 +21,23 @@ const Newgoal =props=> {
 
     }
 
+   
+
     const textChange = event =>{
         setuserInput(event.target.value);
     };
 
 
 
-    return (
+    return ( 
+        <div className="form">
         <form className="goal" onSubmit={Gaolhandler}>
         <input className="input" type="text" value ={userInput } onChange={textChange}/>
-            <button type ="submit">Add Task</button>
+            <button disabled={!userInput} type ="submit">Add Task</button>
             
         
     </form>
+    </div>
     )
     
 }
