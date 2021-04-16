@@ -2,9 +2,6 @@ import React from 'react';
 
 const MygoalList = props => {
 
-   
-  
-
     return (
         <ul className="goal-list">{
 
