@@ -53,10 +53,13 @@
 }
 
 .mygoals{
-  max-width: 100%;
+  
+  max-width: 80%;
   position: relative;
   width: 900px;
   margin: 2em auto;
   background: #fff;
   padding: 1em;
+  border-style: dotted;
 }
+

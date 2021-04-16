@@ -21,15 +21,24 @@ code {
 
 .input{
   text-align: "center";
-  margin-left:23em ;
+  margin-left:20em ;
+  font-size: 1rem;
+    flex: 3 0 auto;
+    position: relative;
+  
   
 
 }
 
 .clear{
-  margin-left: 23em;
+  margin-left: 20em;
   width: 245px;
   text-align: center;
+  font-size: 1rem;
+    flex: 3 0 auto;
+    align-self: center;
+    position: relative;
+  
 }
 
 
