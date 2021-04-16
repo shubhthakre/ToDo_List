@@ -8,7 +8,7 @@ const App= ()  =>{
   const title = "ToDo List";
 
   const [mygoals,setmygoals]= useState([
-    {id:"1",text:"eat"}, {id:"2",text:"sleep"},
+    {id:"1",text:"code"}, {id:"2",text:"practice"},
   {id:"3",text:"repeat"}])
 
 const addnewGoal = (newGoal) =>{
